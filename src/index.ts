@@ -24,7 +24,7 @@ class LDFeatureFlag {
         // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
         //Token.apiKeyPrefix = 'Token';
 
-        var apiInstance = new ld.FeatureFlagsApi(newld.Configuration(configParams));
+        var apiInstance = new ld.FeatureFlagsApi(new ld.Configuration(configParams));
 
         var callback = function(error: any, data: string, response: any) {
         if (error) {
